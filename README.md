@@ -37,9 +37,6 @@
    * vi-mode
 1. [Tmux](https://github.com/tmux/tmux/wiki) - A Terminal multiplexer
 
-1  pbcopy - used when generating a new SSH key to GitHub account (`pbcopy < ~/.ssh/id_rsa.pub`)
-  * `brew install pbcopy`
-
 1. [Adding a new SSH key to your GitHub account](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
   * This will enable us to do `git clone git@github.com:XXXXXXX`
 

@@ -36,6 +36,8 @@
     * reset zsh history
       `vim ~/.zsh_history`
     * vi-mode (see later `dotfiles` and `oh-my-zsh`)
+    * disable the `Last login` message
+      `touch ~/.hushlogin`
     * _Profiles_ -> _Text_
       * Cursor
         * `Box`

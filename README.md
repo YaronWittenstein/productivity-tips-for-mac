@@ -50,6 +50,13 @@
 
 1. [Caffeine](http://lightheadsw.com/caffeine/) - Don't let your mac fall asleep
 1. [evernote](https://evernote.com/download) - Note manager
+1. Chrome Settings:
+   * Downloads
+     * go to `chrome://settings` in the address bar
+     * click on `Advanced`
+     * change the default `Location`
+     * turn on `Ask where to save each file before downloading`
+
 1. Chrome plugins
     * [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en)
     * [Save to Pocket](https://chrome.google.com/webstore/detail/save-to-pocket/niloccemoadcdkdjlinkgdfekeahmflj?hl=en)

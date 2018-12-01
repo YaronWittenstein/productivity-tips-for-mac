@@ -4,7 +4,8 @@
 #### Recommended Settings:
 
 1. System Sounds
-  turn off `Play user interface sounds effects`
+  * Go to `System Prefernces -> Sound`
+  * Turn off `Play user interface sounds effects`
 
 1. [Homebrew](https://brew.sh/) - The missing package manager for macOS
   * installation command:
@@ -120,13 +121,14 @@
    * run the command `csrutil disable` after booting in recovery mode
 
 1. [Alfred](https://www.alfredapp.com/) - `Spotlight` in steroids (extreme search, hot-keys, workflows, keywords etc)
-    * [Kill Process (kill _PROCESS_)](https://github.com/ngreenstein/alfred-process-killer)
-    * [Flush DNS (fdns)](https://github.com/cdraeger/alfred2-flushdns-workflow)
-    * [Password Generator (pwgen 10)](https://github.com/deanishe/alfred-pwgen)
-    * [TimeZones (tz london)](https://github.com/zenorocha/alfred-workflows/blob/master/time-zones/time-zones.alfredworkflow)
-    * [Dictionary (define _WORD_)](https://www.alfredapp.com/help/features/dictionary/)
-    * [StackOverflow Search (.so ...)](http://www.packal.org/workflow/stackoverflow-search)
-    * [Dash (dash ...)](https://www.alfredapp.com/blog/productivity/dash-quicker-api-documentation-search/)
+    * Alfred Workflows
+      * [Kill Process (kill _PROCESS_)](https://github.com/ngreenstein/alfred-process-killer)
+      * [Flush DNS (fdns)](https://github.com/cdraeger/alfred2-flushdns-workflow)
+      * [Password Generator (pwgen 10)](https://github.com/deanishe/alfred-pwgen)
+      * [TimeZones (tz london)](https://github.com/zenorocha/alfred-workflows/blob/master/time-zones/time-zones.alfredworkflow)
+      * [Dictionary (define _WORD_)](https://www.alfredapp.com/help/features/dictionary/)
+      * [StackOverflow Search (.so ...)](http://www.packal.org/workflow/stackoverflow-search)
+      * [Dash (dash ...)](https://www.alfredapp.com/blog/productivity/dash-quicker-api-documentation-search/)
 1. [Dash](https://kapeli.com/dash)
 1. [FlexiGlass](https://www.nulana.com/flexiglass/)
 1. [PopClip](http://pilotmoon.com/popclip/)

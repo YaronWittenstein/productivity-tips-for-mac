@@ -186,6 +186,13 @@
     * turn off `Show Finder search window`
   * Important: don't Disable `Spotlight` indexing since ``Alfred` relies on it
 1. [Alfred](https://www.alfredapp.com/) - `Spotlight` in steroids (extreme search, hot-keys, workflows, keywords etc)
+    * Recommended Settings
+      * `General`
+        * Turn on 'Launch Alfred at login'
+        * Alfred Hotkey: ⌘ Space`
+      * `Features`
+        *`File Search`
+          * Opening Files: `o` (`open` is the default)
     * Alfred Workflows
       * [Kill Process (kill _PROCESS_)](https://github.com/ngreenstein/alfred-process-killer)
       * [Flush DNS (fdns)](https://github.com/cdraeger/alfred2-flushdns-workflow)

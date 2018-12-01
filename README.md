@@ -43,6 +43,12 @@
 1. install dotfiles
    * `cd ~/`
    * `git clone git@github.com:YaronWittenstein/dotfiles.git` # will create `~/dotfiles` locally
+   * `rm ~/.zshrc`
+   * `rm ~/.gemrc`
+   * `rm ~/.ctags`
+   * `rm ~/.gitconfig`
+   * `rm ~/.vimrc`
+   * `rm ~/.config`
    * `ln -s ~/dotfiles/.zshrc ~/.zshrc`
    * `ln -s ~/dotfiles/.gemrc ~/.gemrc`
    * `ln -s ~/dotfiles/.ctags ~/.ctags`

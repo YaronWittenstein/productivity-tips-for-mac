@@ -37,6 +37,9 @@
    * vi-mode
 1. [Tmux](https://github.com/tmux/tmux/wiki) - A Terminal multiplexer
 
+1. [Adding a new SSH key to your GitHub account](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
+  this will enable us to do `git clone git@github.com:XXXXXXX`
+
 1. install dotfiles
    * `cd ~/`
    * `git clone git@github.com:YaronWittenstein/dotfiles.git` # will create `~/dotfiles` locally

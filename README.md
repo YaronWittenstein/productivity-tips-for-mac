@@ -206,7 +206,14 @@
       * [StackOverflow Search (.so ...)](http://www.packal.org/workflow/stackoverflow-search)
       * [Dash (dash ...)](https://www.alfredapp.com/blog/productivity/dash-quicker-api-documentation-search/)
 1. [Dash](https://kapeli.com/dash)
-1. [FlexiGlass](https://www.nulana.com/flexiglass/)
+1. [FlexiGlass](https://www.nulana.com/flexiglass/) - Window Mover
+  * Recommended Settings
+    * Move
+      * turn on `Enabled`
+      * under `Start moving when pressed` mark `⌥ Option` and select the `One finger` option
+    * Resize
+      * turn on `Enabled`
+      * under `Start resizing when pressed` mark `⌥ Option` and select the `Two fingers` option
 1. [PopClip](http://pilotmoon.com/popclip/)
     * [Extensions](http://pilotmoon.com/popclip/extensions/)
 1. [Yoink](https://eternalstorms.at/yoink/)

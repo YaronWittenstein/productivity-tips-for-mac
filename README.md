@@ -48,6 +48,9 @@
         * turn off `Italic text allowed`
       * Font
         * `14pt Monaco`
+    * _Profiles_ -> _Window_
+      * Columns: 120
+      * Rows: 20
 1. [fzf](https://github.com/junegunn/fzf)
     * ⌃+R
     * preview files

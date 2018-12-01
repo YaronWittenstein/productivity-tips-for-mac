@@ -4,7 +4,7 @@
 #### Recommended Settings:
 
 1. System Sounds
-  * Go to `System Prefernces -> Sound`
+  * Go to `System Preferences -> Sound`
   * Turn off `Play user interface sounds effects`
 
 1. [Homebrew](https://brew.sh/) - The missing package manager for macOS
@@ -62,6 +62,7 @@
      * turn on `Ask where to save each file before downloading`
 
 1. Chrome plugins
+    * [Grammarly](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen?hl=en)
     * [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en)
     * [Save to Pocket](https://chrome.google.com/webstore/detail/save-to-pocket/niloccemoadcdkdjlinkgdfekeahmflj?hl=en)
     * [Evernote Web Clipper](https://chrome.google.com/webstore/detail/evernote-web-clipper/pioclpoplcdbaefihamjohnefbikjilc?hl=en)

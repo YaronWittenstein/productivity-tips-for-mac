@@ -3,6 +3,13 @@
 
 #### Recommended Settings:
 
+1. [Homebrew](https://brew.sh/):
+installation command:
+
+```bash
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
 1. [iTerm2](https://www.iterm2.com/) - A better OSX terminal
     * Shortcuts
       ```

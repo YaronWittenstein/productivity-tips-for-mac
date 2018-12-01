@@ -28,11 +28,24 @@
       ⌘ ←             | Previous Tab
       ⌘ →             | Next Tab
       ```
-    * Working Directory (_Profiles_ -> _Working Directory_ -> _Directory_ )
+    * Command (_Profiles_ -> _General_ -> _Command_)
+      `zsh`
+    * Working Directory (_Profiles_ -> _General_ -> _Working Directory_)
+      `Reuse previous session's Directory`
     * `open .`
     * reset zsh history
-    `vim ~/.zsh_history`
-    * vi-mode
+      `vim ~/.zsh_history`
+    * vi-mode (see later `dotfiles` and `oh-my-zsh`)
+    * _Profiles_ -> _Text_
+      * Cursor
+        * `Box`
+        * turn-off `Blinking cursor`
+      * Text Rendering
+        * turn off `Draw bold text in bold font`
+        * turn off `Blinking text allowed`
+        * turn off `Italic text allowed`
+      * Font
+        * `14pt Monaco`
 1. [fzf](https://github.com/junegunn/fzf)
     * ⌃+R
     * preview files

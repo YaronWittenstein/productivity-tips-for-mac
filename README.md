@@ -110,7 +110,16 @@
     ```
 1. [Tower](https://www.git-tower.com/) + [Kaleidoscope](https://www.kaleidoscopeapp.com/) - Version control with Git - made easy
 1. [Github for Mac](https://desktop.github.com/)
-1. [Alfred](https://www.alfredapp.com/) - Spotlight in steroids (extreme search, hot-keys, workflows, keywords etc)
+1. Disable `Spotlight` indexing
+   * run the command
+   ```zsh
+    sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plist
+    ```
+   * if you receive the error:
+   `'/System/Library/LaunchDaemons/com.apple.metadata.mds.plist: Operation not permitted while System Integrity Protection is engaged'`
+   * run the command `csrutil disable` after booting in recovery mode
+
+1. [Alfred](https://www.alfredapp.com/) - `Spotlight` in steroids (extreme search, hot-keys, workflows, keywords etc)
     * [Kill Process (kill _PROCESS_)](https://github.com/ngreenstein/alfred-process-killer)
     * [Flush DNS (fdns)](https://github.com/cdraeger/alfred2-flushdns-workflow)
     * [Password Generator (pwgen 10)](https://github.com/deanishe/alfred-pwgen)

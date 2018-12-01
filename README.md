@@ -62,6 +62,10 @@
   * `brew install go`
   * `go version` # returns the installed Go version
 
+1. install Python3
+  * `brew install python3`
+  * `python --version` # returns the installed Python version
+
 1. install dotfiles
    * `cd ~/`
    * `git clone git@github.com:YaronWittenstein/dotfiles.git` # will create `~/dotfiles` locally

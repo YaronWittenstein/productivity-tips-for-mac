@@ -36,6 +36,17 @@
     `vim ~/.zsh_history`
    * vi-mode
 1. [Tmux](https://github.com/tmux/tmux/wiki) - A Terminal multiplexer
+
+1. install dotfiles
+   * `cd ~/`
+   * `git clone git@github.com:YaronWittenstein/dotfiles.git` # will create `~/dotfiles` locally
+   * `ln -s ~/dotfiles/.zshrc ~/.zshrc`
+   * `ln -s ~/dotfiles/.gemrc ~/.gemrc`
+   * `ln -s ~/dotfiles/.ctags ~/.ctags`
+   * `ln -s ~/dotfiles/.gitconfig ~/.gitconfig`
+   * `ln -s ~/dotfiles/.vimrc ~/.vimrc`
+   * `ln -s ~/dotfiles/nvim/init.vim ~/.config/nvim/init.vim`
+
 1. [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) - A better shell
     * installation:
     ```zsh

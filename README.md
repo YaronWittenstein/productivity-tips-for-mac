@@ -3,6 +3,9 @@
 
 #### Recommended Settings:
 
+1. System Sounds
+  turn off `Play user interface sounds effects`
+
 1. [Homebrew](https://brew.sh/) - The missing package manager for macOS
   * installation command:
     ```zsh

@@ -37,7 +37,7 @@
       `vim ~/.zsh_history`
     * vi-mode (see later `dotfiles` and `oh-my-zsh`)
     * disable the `Last login` message
-      `touch ~/.hushlogin`
+      * `touch ~/.hushlogin`
     * _Profiles_ -> _Text_
       * Cursor
         * `Box`

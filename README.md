@@ -71,10 +71,11 @@
     * This will enable us to do `git clone git@github.com:XXXXXXX`
 1. [vim](http://www.vim.org/)/[neovim](https://neovim.io/)
     * `brew install neovim`
-    * `mkdir ~/.config/nvim` # preparation for the dotfiles
-    * `mkdir ~/.config/nvim/autoload`
-    * `cd ~/.config/nvim/autoload`
-    * `git clone https://github.com/junegunn/vim-plug.git` # installing [vim-plug](https://github.com/junegunn/vim-plug)
+    * install [vim-plug](https://github.com/junegunn/vim-plug/wiki/tutorial)
+      ```zsh
+      curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs \
+      https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+      ```
     * install neovim plugins by runing in neovim `:PlugInstall`
 1. install dotfiles
     * `cd ~/`

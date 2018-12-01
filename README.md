@@ -186,8 +186,10 @@
   * `System Preferences -> Spotlight -> Privacy -> Keyboard Shortcuts...`
     * turn off `Show Spotlight search`
     * turn off `Show Finder search window`
-  * Important: don't Disable `Spotlight` indexing since ``Alfred` relies on it
+  * Important: don't Disable `Spotlight` indexing since `Alfred` relies on it
 1. [Alfred](https://www.alfredapp.com/) - `Spotlight` in steroids (extreme search, hot-keys, workflows, keywords etc)
+    * Make sure that Spotlight indexing is running
+      `sudo mdutil -a -i on`
     * Recommended Settings
       * `General`
         * Turn on 'Launch Alfred at login'

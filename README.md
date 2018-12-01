@@ -40,6 +40,14 @@
 1. [Adding a new SSH key to your GitHub account](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
   * This will enable us to do `git clone git@github.com:XXXXXXX`
 
+1. [install Rust](https://www.rust-lang.org/en-US/install.html)
+  * `curl https://sh.rustup.rs -sSf | sh`
+  * all tools are installed under `~/.cargo/bin`
+  * run `rustc --version`
+
+
+  * TBD
+
 1. install Ruby
   * install [RVM](https://rvm.io/)
   ```zsh
@@ -47,11 +55,10 @@
   gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
   \curl -sSL https://get.rvm.io | bash -s stable
   ```
+  * `rvm list known` will return all possible ruby installations
+  * `rvm install ruby-2.5.3` # or pick other ruby version
 
 1. install Elixir
-  * TBD
-
-1. install Rust
   * TBD
 
 1. install Go

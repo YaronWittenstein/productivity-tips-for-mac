@@ -91,7 +91,10 @@
     * change in the commit url: `/commit` to `/tree`
     * search for a file using `t`
 1. [Karabiner](https://pqrs.org/osx/karabiner/) - A powerful and stable keyboard customizer
-    * remap ⇪ to _Esc_
+    * open `Karabiner - Elements`
+    * click on `⊕ Add item`
+    * select `caps_lock` under `From key` and `escape` under `To key`
+
 1. Git aliases (gp, gl, gmd, gmm, gsq, grhh) [note that oh-my-zsh brings most of these by default]
     ```
     gp    # git push

@@ -6,13 +6,11 @@
 1. System Sounds
   * Go to `System Preferences -> Sound`
   * Turn off `Play user interface sounds effects`
-
 1. [Homebrew](https://brew.sh/) - The missing package manager for macOS
   * installation command:
     ```zsh
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
     ```
-
 1. [iTerm2](https://www.iterm2.com/) - A better OSX terminal
     * Shortcuts
       ```
@@ -36,10 +34,8 @@
     `vim ~/.zsh_history`
    * vi-mode
 1. [Tmux](https://github.com/tmux/tmux/wiki) - A Terminal multiplexer
-
 1. [Adding a new SSH key to your GitHub account](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
   * This will enable us to do `git clone git@github.com:XXXXXXX`
-
 1. Programming Languages
   * [Rust](https://www.rust-lang.org/en-US/install.html)
     * `curl https://sh.rustup.rs -sSf | sh` # all tools are installed under `~/.cargo/bin`
@@ -48,11 +44,9 @@
     * `brew install elixir`
     * `elixir --version` # returns the installed Elixir version
   * [Ruby RVM](https://rvm.io/)
-    * ```zsh
-    brew install gpg
-    gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
-    \curl -sSL https://get.rvm.io | bash -s stable
-    ```
+    * `brew install gpg`
+    * `gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+    \curl -sSL https://get.rvm.io | bash -s stable`
     * `rvm list known` will return all possible ruby installations
     * `rvm install ruby-2.5.3` # or pick other ruby version
   * Go
@@ -61,7 +55,6 @@
   * Python3
     * `brew install python3`
     * `python3 --version` # returns the installed Python3 version
-
 1. install dotfiles
    * `cd ~/`
    * `git clone git@github.com:YaronWittenstein/dotfiles.git` # will create `~/dotfiles` locally
@@ -77,7 +70,6 @@
    * `ln -s ~/dotfiles/.gitconfig ~/.gitconfig`
    * `ln -s ~/dotfiles/.vimrc ~/.vimrc`
    * `ln -s ~/dotfiles/nvim/init.vim ~/.config/nvim/init.vim`
-
 1. [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) - A better shell
     * installation:
     ```zsh
@@ -102,7 +94,6 @@
      * click on `Advanced`
      * change the default `Location`
      * turn on `Ask where to save each file before downloading`
-
 1. Chrome plugins
     * [Grammarly](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen?hl=en)
     * [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en)

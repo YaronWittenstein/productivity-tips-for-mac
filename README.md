@@ -39,8 +39,9 @@
 1. [ctags](https://github.com/universal-ctags/homebrew-universal-ctags)
 1. [ag](https://github.com/ggreer/the_silver_searcher)
 1. [rg](https://github.com/BurntSushi/ripgrep)
-1. [htop](https://hisham.hm/htop/)
-1. tree
+1. [exa](https://the.exa.website/) - A modern replacement for ls
+1. [htop](https://hisham.hm/htop/) - an interactive process viewer
+1. tree - list a directory
 1. [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)
 1. [Tmux](https://github.com/tmux/tmux/wiki) - A Terminal multiplexer
 1. Programming Languages

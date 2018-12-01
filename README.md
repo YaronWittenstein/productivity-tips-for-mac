@@ -33,9 +33,16 @@
     * reset zsh history
     `vim ~/.zsh_history`
     * vi-mode
+1. [fzf](https://github.com/junegunn/fzf)
+    * ⌃+R
+    * preview files
+1. [ctags](https://github.com/universal-ctags/homebrew-universal-ctags)
+1. [ag](https://github.com/ggreer/the_silver_searcher)
+1. [rg](https://github.com/BurntSushi/ripgrep)
+1. [htop](https://hisham.hm/htop/)
+1. tree
+1. [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)
 1. [Tmux](https://github.com/tmux/tmux/wiki) - A Terminal multiplexer
-1. [Adding a new SSH key to your GitHub account](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
-    * This will enable us to do `git clone git@github.com:XXXXXXX`
 1. Programming Languages
     * [Rust](https://www.rust-lang.org/en-US/install.html)
       * `curl https://sh.rustup.rs -sSf | sh` # all tools are installed under `~/.cargo/bin`
@@ -59,6 +66,10 @@
       * `brew install python3`
       * `python3 --version` # returns the installed Python3 version
     * [JVM](https://java.com/en/download/)
+1. [Adding a new SSH key to your GitHub account](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
+    * This will enable us to do `git clone git@github.com:XXXXXXX`
+1. [vim](http://www.vim.org/)/[neovim](https://neovim.io/)
+  * install neovim plugins
 1. install dotfiles
     * `cd ~/`
     * `git clone git@github.com:YaronWittenstein/dotfiles.git` # will create `~/dotfiles` locally
@@ -184,22 +195,12 @@
 1. [anki](https://apps.ankiweb.net/)
     * [How to Increase Your Brain's Cache Hits?](https://www.youtube.com/watch?v=vAltVK7aMEw)
 1. [Paw](https://paw.cloud/)
-1. [fzf](https://github.com/junegunn/fzf)
-    * ⌃+R
-    * preview files
 1. [numi](https://numi.io/)
-1. [ctags](https://github.com/universal-ctags/homebrew-universal-ctags)
-1. [ag](https://github.com/ggreer/the_silver_searcher)
-1. [rg](https://github.com/BurntSushi/ripgrep)
-1. [htop](https://hisham.hm/htop/)
-1. tree
-1. [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)
 1. [increasing keyboard repeat rate](https://apple.stackexchange.com/questions/10467/how-to-increase-keyboard-key-repeat-rate-on-os-x)
     ```
     defaults write -g InitialKeyRepeat -int 10  # normal minimum is 15 (225 ms)
     defaults write -g KeyRepeat -int 1          # normal minimum is 2 (30 ms)
     ```
-1. [vim](http://www.vim.org/)/[neovim](https://neovim.io/)
 1. [emacs](https://www.gnu.org/software/emacs/)
 1. other:
     * eyes

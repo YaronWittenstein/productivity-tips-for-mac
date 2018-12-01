@@ -45,8 +45,8 @@
   * all tools are installed under `~/.cargo/bin`
   * run `rustc --version`
 
-
-  * TBD
+1. [install Elixir](https://elixir-lang.org/install.html#mac-os-x)
+  * `brew install elixir`
 
 1. install Ruby
   * install [RVM](https://rvm.io/)
@@ -57,9 +57,6 @@
   ```
   * `rvm list known` will return all possible ruby installations
   * `rvm install ruby-2.5.3` # or pick other ruby version
-
-1. install Elixir
-  * TBD
 
 1. install Go
   * TBD

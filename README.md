@@ -58,6 +58,7 @@
     * Python3
       * `brew install python3`
       * `python3 --version` # returns the installed Python3 version
+    * [JVM](https://java.com/en/download/)
 1. install dotfiles
     * `cd ~/`
     * `git clone git@github.com:YaronWittenstein/dotfiles.git` # will create `~/dotfiles` locally

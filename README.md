@@ -70,7 +70,9 @@
 1. [Adding a new SSH key to your GitHub account](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
     * This will enable us to do `git clone git@github.com:XXXXXXX`
 1. [vim](http://www.vim.org/)/[neovim](https://neovim.io/)
-  * install neovim plugins
+  * after installing `neovim` run: `mkdir ~/.config/nvim` # preparation for the dotfiles
+  * install [vim-plug](https://github.com/junegunn/vim-plug)
+  * install neovim plugins by runing in neovim `:PlugInstall`
 1. install dotfiles
     * `cd ~/`
     * `git clone git@github.com:YaronWittenstein/dotfiles.git` # will create `~/dotfiles` locally

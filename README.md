@@ -48,7 +48,7 @@
    * `rm ~/.ctags`
    * `rm ~/.gitconfig`
    * `rm ~/.vimrc`
-   * `rm ~/.config`
+   * `rm ~/.config/nvim/init.vim`
    * `ln -s ~/dotfiles/.zshrc ~/.zshrc`
    * `ln -s ~/dotfiles/.gemrc ~/.gemrc`
    * `ln -s ~/dotfiles/.ctags ~/.ctags`

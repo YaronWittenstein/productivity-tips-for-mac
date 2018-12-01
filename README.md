@@ -5,7 +5,7 @@
 
 1. [Homebrew](https://brew.sh/) - The missing package manager for macOS
   * installation command:
-    ```bash
+    ```zsh
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
     ```
 
@@ -33,6 +33,11 @@
    * vi-mode
 1. [Tmux](https://github.com/tmux/tmux/wiki) - A Terminal multiplexer
 1. [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) - A better shell
+    * installation:
+    ```zsh
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+    ```
+
     * [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
     * [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
     * gem

@@ -4,10 +4,10 @@
 #### Recommended Settings:
 
 1. System Sounds
-  * Go to `System Preferences -> Sound`
-  * Turn off `Play user interface sounds effects`
+    * Go to `System Preferences -> Sound`
+    * Turn off `Play user interface sounds effects`
 1. [Homebrew](https://brew.sh/) - The missing package manager for macOS
-  * installation command:
+    * installation command:
     ```zsh
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
     ```
@@ -28,48 +28,48 @@
       ⌘ ←             | Previous Tab
       ⌘ →             | Next Tab
       ```
-   * Working Directory (_Profiles_ -> _Working Directory_ -> _Directory_ )
-   * `open .`
-   * reset zsh history
+    * Working Directory (_Profiles_ -> _Working Directory_ -> _Directory_ )
+    * `open .`
+    * reset zsh history
     `vim ~/.zsh_history`
-   * vi-mode
+    * vi-mode
 1. [Tmux](https://github.com/tmux/tmux/wiki) - A Terminal multiplexer
 1. [Adding a new SSH key to your GitHub account](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
-  * This will enable us to do `git clone git@github.com:XXXXXXX`
+    * This will enable us to do `git clone git@github.com:XXXXXXX`
 1. Programming Languages
-  * [Rust](https://www.rust-lang.org/en-US/install.html)
-    * `curl https://sh.rustup.rs -sSf | sh` # all tools are installed under `~/.cargo/bin`
-    * `rustc --version` # returns the installed Rust version
-  * [Elixir](https://elixir-lang.org/install.html#mac-os-x)
-    * `brew install elixir`
-    * `elixir --version` # returns the installed Elixir version
-  * [Ruby RVM](https://rvm.io/)
-    * `brew install gpg`
-    * `gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
-    \curl -sSL https://get.rvm.io | bash -s stable`
-    * `rvm list known` will return all possible ruby installations
-    * `rvm install ruby-2.5.3` # or pick other ruby version
-  * Go
-    * `brew install go`
-    * `go version` # returns the installed Go version
-  * Python3
-    * `brew install python3`
-    * `python3 --version` # returns the installed Python3 version
+    * [Rust](https://www.rust-lang.org/en-US/install.html)
+      * `curl https://sh.rustup.rs -sSf | sh` # all tools are installed under `~/.cargo/bin`
+      * `rustc --version` # returns the installed Rust version
+    * [Elixir](https://elixir-lang.org/install.html#mac-os-x)
+      * `brew install elixir`
+      * `elixir --version` # returns the installed Elixir version
+    * [Ruby RVM](https://rvm.io/)
+      * `brew install gpg`
+      * `gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+      \curl -sSL https://get.rvm.io | bash -s stable`
+      * `rvm list known` will return all possible ruby installations
+      * `rvm install ruby-2.5.3` # or pick other ruby version
+    * Go
+      * `brew install go`
+      * `go version` # returns the installed Go version
+    * Python3
+      * `brew install python3`
+      * `python3 --version` # returns the installed Python3 version
 1. install dotfiles
-   * `cd ~/`
-   * `git clone git@github.com:YaronWittenstein/dotfiles.git` # will create `~/dotfiles` locally
-   * `rm ~/.zshrc`
-   * `rm ~/.gemrc`
-   * `rm ~/.ctags`
-   * `rm ~/.gitconfig`
-   * `rm ~/.vimrc`
-   * `rm ~/.config/nvim/init.vim`
-   * `ln -s ~/dotfiles/.zshrc ~/.zshrc`
-   * `ln -s ~/dotfiles/.gemrc ~/.gemrc`
-   * `ln -s ~/dotfiles/.ctags ~/.ctags`
-   * `ln -s ~/dotfiles/.gitconfig ~/.gitconfig`
-   * `ln -s ~/dotfiles/.vimrc ~/.vimrc`
-   * `ln -s ~/dotfiles/nvim/init.vim ~/.config/nvim/init.vim`
+    * `cd ~/`
+    * `git clone git@github.com:YaronWittenstein/dotfiles.git` # will create `~/dotfiles` locally
+    * `rm ~/.zshrc`
+    * `rm ~/.gemrc`
+    * `rm ~/.ctags`
+    * `rm ~/.gitconfig`
+    * `rm ~/.vimrc`
+    * `rm ~/.config/nvim/init.vim`
+    * `ln -s ~/dotfiles/.zshrc ~/.zshrc`
+    * `ln -s ~/dotfiles/.gemrc ~/.gemrc`
+    * `ln -s ~/dotfiles/.ctags ~/.ctags`
+    * `ln -s ~/dotfiles/.gitconfig ~/.gitconfig`
+    * `ln -s ~/dotfiles/.vimrc ~/.vimrc`
+    * `ln -s ~/dotfiles/nvim/init.vim ~/.config/nvim/init.vim`
 1. [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) - A better shell
     * installation:
     ```zsh

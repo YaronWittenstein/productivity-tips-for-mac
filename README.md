@@ -41,12 +41,12 @@
   * This will enable us to do `git clone git@github.com:XXXXXXX`
 
 1. [install Rust](https://www.rust-lang.org/en-US/install.html)
-  * `curl https://sh.rustup.rs -sSf | sh`
-  * all tools are installed under `~/.cargo/bin`
-  * run `rustc --version`
+  * `curl https://sh.rustup.rs -sSf | sh` # all tools are installed under `~/.cargo/bin`
+  * run `rustc --version` # returns the installed Rust version
 
 1. [install Elixir](https://elixir-lang.org/install.html#mac-os-x)
   * `brew install elixir`
+  * `elixir --version` # returns the installed Elixir version
 
 1. install Ruby
   * install [RVM](https://rvm.io/)
@@ -59,7 +59,8 @@
   * `rvm install ruby-2.5.3` # or pick other ruby version
 
 1. install Go
-  * TBD
+  * `brew install go`
+  * `go version` # returns the installed Go version
 
 1. install dotfiles
    * `cd ~/`

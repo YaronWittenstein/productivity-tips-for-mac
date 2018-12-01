@@ -180,18 +180,11 @@
     ```
 1. [Tower](https://www.git-tower.com/) + [Kaleidoscope](https://www.kaleidoscopeapp.com/) - Version control with Git - made easy
 1. [Github for Mac](https://desktop.github.com/)
-1. Disable `Spotlight` indexing
-  * run the command
-    ```zsh
-    sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plist
-    ```
-  * if you receive the error:
-    `'/System/Library/LaunchDaemons/com.apple.metadata.mds.plist: Operation not permitted while System Integrity Protection is engaged'`
-  * run the command `csrutil disable` after booting in recovery mode
-1. Or hide Spotlight
+1. Hide Spotlight
   * `System Preferences -> Spotlight -> Privacy -> Keyboard Shortcuts...`
     * turn off `Show Spotlight search`
     * turn off `Show Finder search window`
+  * Important: don't Disable `Spotlight` indexing since ``Alfred` relies on it
 1. [Alfred](https://www.alfredapp.com/) - `Spotlight` in steroids (extreme search, hot-keys, workflows, keywords etc)
     * Alfred Workflows
       * [Kill Process (kill _PROCESS_)](https://github.com/ngreenstein/alfred-process-killer)

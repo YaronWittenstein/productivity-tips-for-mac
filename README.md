@@ -196,7 +196,7 @@
     * Recommended Settings
       * `General`
         * Turn on 'Launch Alfred at login'
-        * Alfred Hotkey: ⌘ Space`
+        * Alfred Hotkey: `⌘ Space`
       * `Features`
         *`File Search`
           * Opening Files: `o` (`open` is the default)

@@ -52,6 +52,7 @@
       * Columns: 120
       * Rows: 20
 1. [fzf](https://github.com/junegunn/fzf)
+    * first install `fd` by `brew install fd` (since we have in zhrc `export FZF_DEFAULT_COMMAND='fd --type f'`)
     * ⌃+R
     * preview files
 1. [ctags](https://github.com/universal-ctags/homebrew-universal-ctags)
@@ -116,7 +117,6 @@
     ```zsh
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
     ```
-
     * [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
     * [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
     * gem

@@ -110,6 +110,7 @@
     * `ln -s ~/dotfiles/.gitconfig ~/.gitconfig`
     * `ln -s ~/dotfiles/.vimrc ~/.vimrc`
     * `ln -s ~/dotfiles/nvim/init.vim ~/.config/nvim/init.vim`
+    * `ln -s ~/dotfiles/emacs/init.el ~/.emacs.d/init.el`
 1. [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) - A better shell
     * installation:
     ```zsh

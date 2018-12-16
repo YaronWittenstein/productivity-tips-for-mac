@@ -1,5 +1,6 @@
 ### Productivity on Mac
-<br>
+
+![mac](https://bit.ly/2zYvwHy)
 
 #### Recommended Settings:
 

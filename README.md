@@ -162,13 +162,10 @@
 
     * list of plugins:
     ```
-    dirhistory
-    cp
     cargo
     rustup
     go
     ruby
-    lein
     bundler
     rbenv
     gem
@@ -180,7 +177,8 @@
     git
     gitfast
     git-remote-branch
-    redis-cl
+    dirhistory
+    cp
     vi-mode
     last-working-dir
     zsh-autosuggestions

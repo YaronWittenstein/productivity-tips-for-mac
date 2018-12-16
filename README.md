@@ -73,7 +73,7 @@
       * `elixir --version` # returns the installed Elixir version
     * [rbenv](https://github.com/rbenv/rbenv)
       * `brew install rbenv`
-      * [rbenv-gemset](rbenv, https://github.com/jf/rbenv-gemset)
+      * [rbenv-gemset](https://github.com/jf/rbenv-gemset)
         * `brew install rbenv-gemset`
       * [ruby-build](https://github.com/rbenv/ruby-build)
         ```

@@ -254,8 +254,8 @@
 1. [Paw](https://paw.cloud/)
 1. [numi](https://numi.io/)
 1. Keyboard Settings
-  * `Key Repeat` -> Select `Fast`
-  * `Delay Until Repeat` -> Select `Short`
+    * `Key Repeat` -> Select `Fast`
+    * `Delay Until Repeat` -> Select `Short`
 1. [Increasing keyboard repeat rate](https://apple.stackexchange.com/questions/10467/how-to-increase-keyboard-key-repeat-rate-on-os-x)
     ```
     defaults write -g InitialKeyRepeat -int 15  # normal minimum is 15 (225 ms)

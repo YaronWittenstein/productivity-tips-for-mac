@@ -1,4 +1,4 @@
-# Productivity on Mac
+# Productivity Tips for Mac
 
 
 ![mac](https://bit.ly/2zYvwHy)

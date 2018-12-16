@@ -7,7 +7,7 @@
 ## Recommended Settings:
 
 1. Authorize Mac
-  `iTunes -> Account -> Authorizations -> Authorize This Computer..`
+    * `iTunes -> Account -> Authorizations -> Authorize This Computer..`
 1. System Sounds
     * Go to `System Preferences -> Sound`
     * Turn off `Play user interface sounds effects`

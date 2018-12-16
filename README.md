@@ -93,7 +93,7 @@
       * `brew install go`
       * `go version` # returns the installed Go version
       * [gocode](https://github.com/mdempsky/gocode)
-      * `go get -u github.com/mdempsky/gocode`
+          * `go get -u github.com/mdempsky/gocode`
     * Python3
       * `brew install python3`
       * `python3 --version` # returns the installed Python3 version
@@ -253,7 +253,10 @@
     * [How to Increase Your Brain's Cache Hits?](https://www.youtube.com/watch?v=vAltVK7aMEw)
 1. [Paw](https://paw.cloud/)
 1. [numi](https://numi.io/)
-1. [increasing keyboard repeat rate](https://apple.stackexchange.com/questions/10467/how-to-increase-keyboard-key-repeat-rate-on-os-x)
+1. Keyboard Settings
+  * `Key Repeat` -> Select `Fast`
+  * `Delay Until Repeat` -> Select `Short`
+1. [Increasing keyboard repeat rate](https://apple.stackexchange.com/questions/10467/how-to-increase-keyboard-key-repeat-rate-on-os-x)
     ```
     defaults write -g InitialKeyRepeat -int 15  # normal minimum is 15 (225 ms)
     defaults write -g KeyRepeat -int 2          # normal minimum is 2 (30 ms)

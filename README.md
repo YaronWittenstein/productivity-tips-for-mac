@@ -16,13 +16,13 @@
     ```
 1. [iTerm2](https://www.iterm2.com/) - A better OSX terminal
     * Shortcuts
-      ```
+      ```zsh
       ⌘ + ⏎  # toggle full-screen
       ⌘ + K  # clear terminal
       ⌃ + W  # delete word backwards
       ```
     * Customised Key Mappings (_Keys_)
-      ```
+      ```zsh
       Key Combination | Action
       -------------------------
       ⌘ h             | Send ^H Backspace
@@ -79,7 +79,7 @@
       * [rbenv-gemset](https://github.com/jf/rbenv-gemset)
         * `brew install rbenv-gemset`
       * [ruby-build](https://github.com/rbenv/ruby-build)
-        ```
+        ```zsh
         # Using Homebrew on macOS
         $ brew install ruby-build
 
@@ -97,9 +97,11 @@
       * [gocode](https://github.com/mdempsky/gocode)
           * `go get -u github.com/mdempsky/gocode`
     * Python
-      * `brew install readline xz`
-      * `brew install pyenv`
-      * `brew install pyenv-virtualenv`
+      ```zsh
+      brew install readline xz
+      brew install pyenv
+      brew install pyenv-virtualenv
+      ```
     * [JVM](https://java.com/en/download/)
 1. [Adding a new SSH key to your GitHub account](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
     * This will enable us to do `git clone git@github.com:XXXXXXX`
@@ -112,21 +114,23 @@
       ```
     * install neovim plugins by running in neovim `:PlugInstall`
 1. install dotfiles
-    * `cd ~/`
-    * `git clone git@github.com:YaronWittenstein/dotfiles.git` # will create `~/dotfiles` locally
-    * `rm ~/.zshrc`
-    * `rm ~/.gemrc`
-    * `rm ~/.ctags`
-    * `rm ~/.gitconfig`
-    * `rm ~/.vimrc`
-    * `rm ~/.config/nvim/init.vim`
-    * `ln -s ~/dotfiles/.zshrc ~/.zshrc`
-    * `ln -s ~/dotfiles/.gemrc ~/.gemrc`
-    * `ln -s ~/dotfiles/.ctags ~/.ctags`
-    * `ln -s ~/dotfiles/.gitconfig ~/.gitconfig`
-    * `ln -s ~/dotfiles/.vimrc ~/.vimrc`
-    * `ln -s ~/dotfiles/nvim/init.vim ~/.config/nvim/init.vim`
-    * `ln -s ~/dotfiles/emacs/init.el ~/.emacs.d/init.el`
+    ```zsh
+    cd ~/
+    git clone git@github.com:YaronWittenstein/dotfiles.git` # will create `~/dotfiles` locally
+    rm ~/.zshrc
+    rm ~/.gemrc
+    rm ~/.ctags
+    rm ~/.gitconfig
+    rm ~/.vimrc
+    rm ~/.config/nvim/init.vim
+    ln -s ~/dotfiles/.zshrc ~/.zshrc
+    ln -s ~/dotfiles/.gemrc ~/.gemrc
+    ln -s ~/dotfiles/.ctags ~/.ctags
+    ln -s ~/dotfiles/.gitconfig ~/.gitconfig
+    ln -s ~/dotfiles/.vimrc ~/.vimrc
+    ln -s ~/dotfiles/nvim/init.vim ~/.config/nvim/init.vim
+    ln -s ~/dotfiles/emacs/init.el ~/.emacs.d/init.el
+    ```
 1. [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) - A better shell
     * installation:
     ```zsh
@@ -159,7 +163,7 @@
     * [Send from Gmail (by Google)](https://chrome.google.com/webstore/detail/send-from-gmail-by-google/pgphcomnlaojlmmcjmiddhdapjpbgeoc?hl=en)
     * [Octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc)
 1. Chrome shortcuts:
-    ```
+    ```zsh
     ⌘ + l      # Jump to the address bar
     ⌘ + n      # Open a new window
     ⌘ + ⇧ + n  # Open a new window in Incognito mode
@@ -187,7 +191,7 @@
     * select `caps_lock` under `From key` and `escape` under `To key`
 
 1. Git aliases (gp, gl, gmd, gmm, gsq, grhh) [note that oh-my-zsh brings most of these by default]
-    ```
+    ```zsh
     gp    # git push
     gl    # git pull
     gd    # git diff
@@ -260,7 +264,7 @@
     * `Key Repeat` -> Select `Fast`
     * `Delay Until Repeat` -> Select `Short`
 1. [Increasing keyboard repeat rate](https://apple.stackexchange.com/questions/10467/how-to-increase-keyboard-key-repeat-rate-on-os-x)
-    ```
+    ```zsh
     defaults write -g InitialKeyRepeat -int 15  # normal minimum is 15 (225 ms)
     defaults write -g KeyRepeat -int 2          # normal minimum is 2 (30 ms)
     ```

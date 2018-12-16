@@ -65,6 +65,9 @@
 1. [htop](https://hisham.hm/htop/) - an interactive process viewer
 1. tree - list a directory
 1. [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)
+  ```zsh
+  brew install diff-so-fancy
+  ```
 1. [Tmux](https://github.com/tmux/tmux/wiki) - A Terminal multiplexer
 1. Programming Languages
     * [Rust](https://www.rust-lang.org/en-US/install.html)

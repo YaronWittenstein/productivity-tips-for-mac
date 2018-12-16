@@ -205,6 +205,7 @@
     ```
 1. [Tower](https://www.git-tower.com/) + [Kaleidoscope](https://www.kaleidoscopeapp.com/) - Version control with Git - made easy
 1. [Github for Mac](https://desktop.github.com/)
+1. [Dash](https://kapeli.com/dash)
 1. Hide Spotlight
   * `System Preferences -> Spotlight -> Privacy -> Keyboard Shortcuts...`
     * turn off `Show Spotlight search`
@@ -218,7 +219,7 @@
         * Turn on 'Launch Alfred at login'
         * Alfred Hotkey: `⌘ Space`
       * `Features`
-        *`File Search`
+        * `File Search`
           * Opening Files: `o` (`open` is the default)
     * Alfred Workflows
       * [Kill Process (kill _PROCESS_)](https://github.com/ngreenstein/alfred-process-killer)
@@ -228,15 +229,15 @@
       * [Dictionary (define _WORD_)](https://www.alfredapp.com/help/features/dictionary/)
       * [StackOverflow Search (.so ...)](http://www.packal.org/workflow/stackoverflow-search)
       * [Dash (dash ...)](https://www.alfredapp.com/blog/productivity/dash-quicker-api-documentation-search/)
-1. [Dash](https://kapeli.com/dash)
+        * rename `dash` to `d` under the worflow `Script Filter`
 1. [FlexiGlass](https://www.nulana.com/flexiglass/) - Window Mover
-  * Recommended Settings
-    * Move
-      * turn on `Enabled`
-      * under `Start moving when pressed` mark `⌥ Option` and select the `One finger` option
-    * Resize
-      * turn on `Enabled`
-      * under `Start resizing when pressed` mark `⌥ Option` and select the `Two fingers` option
+    * Recommended Settings
+      * Move
+        * turn on `Enabled`
+        * under `Start moving when pressed` mark `⌥ Option` and select the `One finger` option
+      * Resize
+        * turn on `Enabled`
+        * under `Start resizing when pressed` mark `⌥ Option` and select the `Two fingers` option
 1. [PopClip](http://pilotmoon.com/popclip/)
     * [Extensions](http://pilotmoon.com/popclip/extensions/)
 1. [Yoink](https://eternalstorms.at/yoink/)

@@ -71,15 +71,24 @@
     * [Elixir](https://elixir-lang.org/install.html#mac-os-x)
       * `brew install elixir`
       * `elixir --version` # returns the installed Elixir version
-    * [Ruby RVM](https://rvm.io/)
-      * `brew install gpg`
-      * install RVM
-        ```zsh
-        gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
-        \curl -sSL https://get.rvm.io | bash -s stable
+    * [rbenv](https://github.com/rbenv/rbenv)
+      * `brew install rbenv`
+      * [rbenv-gemset](rbenv, https://github.com/jf/rbenv-gemset)
+        * `brew install rbenv-gemset`
+      * [ruby-build](https://github.com/rbenv/ruby-build)
         ```
-      * `rvm list known` will return all possible ruby installations
-      * `rvm install ruby-2.5.1` # or pick other ruby version
+        # Using Homebrew on macOS
+        $ brew install ruby-build
+
+        # As an rbenv plugin
+        $ mkdir -p "$(rbenv root)"/plugins
+        $ git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build
+
+        # As a standalone program
+        $ git clone https://github.com/rbenv/ruby-build.git
+        $ PREFIX=/usr/local ./ruby-build/install.sh
+        ```
+
     * Go
       * `brew install go`
       * `go version` # returns the installed Go version
@@ -91,14 +100,14 @@
     * [JVM](https://java.com/en/download/)
 1. [Adding a new SSH key to your GitHub account](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
     * This will enable us to do `git clone git@github.com:XXXXXXX`
-1. [vim](http://www.vim.org/)/[neovim](https://neovim.io/)
+1. [neovim](https://neovim.io/)
     * `brew install neovim`
     * install [vim-plug](https://github.com/junegunn/vim-plug/wiki/tutorial)
       ```zsh
       curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs \
       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
       ```
-    * install neovim plugins by runing in neovim `:PlugInstall`
+    * install neovim plugins by running in neovim `:PlugInstall`
 1. install dotfiles
     * `cd ~/`
     * `git clone git@github.com:YaronWittenstein/dotfiles.git` # will create `~/dotfiles` locally
@@ -227,12 +236,19 @@
 1. [Owl](https://itunes.apple.com/il/app/owl/id916200155?mt=12)
 1. [FlyCut](https://itunes.apple.com/il/app/flycut-clipboard-manager/id442160987?mt=12)
 1. [aText](http://www.trankynam.com/atext/)
-    * iCloud sync
+    * iCloud sync (`Preferences -> Sync)`
+      * Select `Sync aText data to (choose iCloud Drive)`
+      * Select `Sync aText's preferences`
 1. [Clear](https://itunes.apple.com/us/app/clear-todos/id493136154?mt=8)
     * iCloud sync
 1. Sticky Notes
 1. [Unclutter](https://unclutterapp.com/)
     * Dropbox sync
+1. [Skype](https://www.skype.com/en/get-skype/skype-for-mac/)
+1. [Slack](https://slack.com/downloads/osx)
+1. [Telegram](https://macos.telegram.org/)
+1. [Atom](https://atom.io)
+1. [Pocket](https://getpocket.com/mac/)
 1. [anki](https://apps.ankiweb.net/)
     * [How to Increase Your Brain's Cache Hits?](https://www.youtube.com/watch?v=vAltVK7aMEw)
 1. [Paw](https://paw.cloud/)
@@ -243,6 +259,8 @@
     defaults write -g KeyRepeat -int 2          # normal minimum is 2 (30 ms)
     ```
 1. [emacs](https://www.gnu.org/software/emacs/)
+1. [cloc](https://github.com/AlDanial/cloc) - Count Lines of Code
+    * `brew install cloc`
 1. other:
     * eyes
       * [GUNNAR](https://gunnar.com/)

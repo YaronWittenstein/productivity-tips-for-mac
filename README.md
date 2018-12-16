@@ -148,17 +148,44 @@
     * [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
     ```zsh
     git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
+
+    # add to zshrc
+    source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
     ```
     * [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
-      `brew install zsh-syntax-highlighting`
-    * gem
-    * bundler
-    * rvm
-    * brew
-    * mix
-    * git
-    * vi-mode
+    ```zsh
+    brew install zsh-syntax-highlighting
 
+    # add to zshrc
+    source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+    ```
+
+    * list of plugins:
+    ```
+    dirhistory
+    cp
+    cargo
+    rustup
+    go
+    ruby
+    lein
+    bundler
+    rbenv
+    gem
+    mix
+    rust
+    brew
+    osx
+    gem
+    git
+    gitfast
+    git-remote-branch
+    redis-cl
+    vi-mode
+    last-working-dir
+    zsh-autosuggestions
+    zsh-syntax-highlighting
+    ```
 1. [Caffeine](http://lightheadsw.com/caffeine/) - Don't let your mac fall asleep
 1. [evernote](https://evernote.com/download) - Note manager
 1. Chrome Settings:

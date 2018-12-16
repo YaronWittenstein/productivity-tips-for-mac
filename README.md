@@ -1,8 +1,10 @@
-### Productivity on Mac
+# Productivity on Mac
+
 
 ![mac](https://bit.ly/2zYvwHy)
 
-#### Recommended Settings:
+
+## Recommended Settings:
 
 1. System Sounds
     * Go to `System Preferences -> Sound`

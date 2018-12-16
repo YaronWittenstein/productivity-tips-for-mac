@@ -77,7 +77,7 @@
     * [rbenv](https://github.com/rbenv/rbenv)
       * `brew install rbenv`
       * [rbenv-gemset](https://github.com/jf/rbenv-gemset)
-        * `brew install rbenv-gemset`
+        `brew install rbenv-gemset`
       * [ruby-build](https://github.com/rbenv/ruby-build)
         ```zsh
         # Using Homebrew on macOS
@@ -95,7 +95,7 @@
       * `brew install go`
       * `go version` # returns the installed Go version
       * [gocode](https://github.com/mdempsky/gocode)
-          * `go get -u github.com/mdempsky/gocode`
+        `go get -u github.com/mdempsky/gocode`
     * Python
       ```zsh
       brew install readline xz
@@ -116,7 +116,7 @@
 1. install dotfiles
     ```zsh
     cd ~/
-    git clone git@github.com:YaronWittenstein/dotfiles.git` # will create `~/dotfiles` locally
+    git clone git@github.com:YaronWittenstein/dotfiles.git # will create `~/dotfiles` locally
     rm ~/.zshrc
     rm ~/.gemrc
     rm ~/.ctags

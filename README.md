@@ -67,6 +67,7 @@
     * [Rust](https://www.rust-lang.org/en-US/install.html)
       * `curl https://sh.rustup.rs -sSf | sh` # all tools are installed under `~/.cargo/bin`
       * `rustc --version` # returns the installed Rust version
+      * [racer](https://github.com/racer-rust/racer)
     * [Elixir](https://elixir-lang.org/install.html#mac-os-x)
       * `brew install elixir`
       * `elixir --version` # returns the installed Elixir version

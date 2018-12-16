@@ -88,15 +88,15 @@
         $ git clone https://github.com/rbenv/ruby-build.git
         $ PREFIX=/usr/local ./ruby-build/install.sh
         ```
-
     * Go
       * `brew install go`
       * `go version` # returns the installed Go version
       * [gocode](https://github.com/mdempsky/gocode)
           * `go get -u github.com/mdempsky/gocode`
-    * Python3
-      * `brew install python3`
-      * `python3 --version` # returns the installed Python3 version
+    * Python
+      * `brew install readline xz`
+      * `brew install pyenv`
+      * `brew install pyenv-virtualenv`
     * [JVM](https://java.com/en/download/)
 1. [Adding a new SSH key to your GitHub account](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
     * This will enable us to do `git clone git@github.com:XXXXXXX`

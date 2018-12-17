@@ -43,7 +43,7 @@
     * vi-mode (see later `dotfiles` and `oh-my-zsh`)
     * disable the `Last login` message
       * `touch ~/.hushlogin`
-    * _Profiles_ -> _Text_
+    * `Profiles -> Text`
       * Cursor
         * `Box`
         * turn-off `Blinking cursor`
@@ -53,9 +53,10 @@
         * turn off `Italic text allowed`
       * Font
         * `14pt Monaco`
-    * _Profiles_ -> _Window_
+    * `Profiles -> Window`
       * Columns: 120
       * Rows: 20
+    * Enable `View -> Show Tabs in Fullscreen (⇧ ⌘ T)`
 1. [fzf](https://github.com/junegunn/fzf)
     * first install `fd` by `brew install fd` (since we have in zhrc `export FZF_DEFAULT_COMMAND='fd --type f'`)
     * ⌃+R

@@ -295,6 +295,7 @@
 1. [Slack](https://slack.com/downloads/osx)
 1. [Telegram](https://macos.telegram.org/)
 1. [Atom](https://atom.io)
+1. [Kindle for Mac](https://itunes.apple.com/il/app/kindle/id405399194)
 1. [Pocket](https://getpocket.com/mac/)
 1. [anki](https://apps.ankiweb.net/)
     * [How to Increase Your Brain's Cache Hits?](https://www.youtube.com/watch?v=vAltVK7aMEw)

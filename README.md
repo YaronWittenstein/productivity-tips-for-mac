@@ -126,20 +126,23 @@
 1. install dotfiles
     ```zsh
     cd ~/
-    git clone git@github.com:YaronWittenstein/dotfiles.git # will create `~/dotfiles` locally
+    git clone git@github.com:YaronWittenstein/dotfiles.git   # will create `~/dotfiles` locally
+    git clone git@github.com:YaronWittenstein/dotvim.git     # will create `~/dotvim`   locally
+    git clone git@github.com:YaronWittenstein/dotemacs.git   # will create `~/dotemacs` locally
     rm ~/.zshrc
     rm ~/.gemrc
     rm ~/.ctags
     rm ~/.gitconfig
     rm ~/.vimrc
     rm ~/.config/nvim/init.vim
+    rm ~/.emacs.d
     ln -s ~/dotfiles/.zshrc ~/.zshrc
     ln -s ~/dotfiles/.gemrc ~/.gemrc
     ln -s ~/dotfiles/.ctags ~/.ctags
     ln -s ~/dotfiles/.gitconfig ~/.gitconfig
     ln -s ~/dotfiles/.vimrc ~/.vimrc
-    ln -s ~/dotfiles/nvim/init.vim ~/.config/nvim/init.vim
-    ln -s ~/dotfiles/emacs/init.el ~/.emacs.d/init.el
+    ln -s ~/dotvim/init.vim ~/.config/nvim/init.vim
+    ln -s ~/dotemacs ~/.emacs.d
     ```
 1. [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) - A better shell
     * installation:
@@ -279,6 +282,8 @@
         * under `Start resizing when pressed` mark `⌥ Option` and select the `Two fingers` option
 1. [PopClip](http://pilotmoon.com/popclip/)
     * [Extensions](http://pilotmoon.com/popclip/extensions/)
+    * Recommended Extensions:
+        * Base64 Encode
 1. [Yoink](https://eternalstorms.at/yoink/)
 1. [Owl](https://itunes.apple.com/il/app/owl/id916200155?mt=12)
 1. [FlyCut](https://itunes.apple.com/il/app/flycut-clipboard-manager/id442160987?mt=12)
@@ -312,6 +317,8 @@
 1. [emacs](https://www.gnu.org/software/emacs/)
 1. [cloc](https://github.com/AlDanial/cloc) - Count Lines of Code
     * `brew install cloc`
+1. [PowerPhotos – Merge Mac Photos libraries, find duplicates, and more](https://www.fatcatsoftware.com/powerphotos/)
+1. [Gemini 2: The Duplicate Finder](https://itunes.apple.com/us/app/id1090488118)
 1. other:
     * eyes
       * [GUNNAR](https://gunnar.com/)

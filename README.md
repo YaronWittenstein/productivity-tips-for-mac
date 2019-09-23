@@ -4,8 +4,21 @@
 ![mac](https://bit.ly/2zYvwHy)
 
 
-## Recommended Settings:
+## Table of contents:
+* Right after Operating-System installation
+* Keyboard
+* Alfred
+* Chrome
+* iTerm2
+* Programming Languages
+* neovim
+* emacs
+* zsh
+* Command-line utilities
+* Desktop utilities
+* Other
 
+####  Right after Operating-System installation
 1. Authorize Mac
     * `iTunes -> Account -> Authorizations -> Authorize This Computer..`
 1. System Sounds

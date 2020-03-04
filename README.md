@@ -329,3 +329,4 @@
       * [Classic](https://www.youtube.com/watch?v=jgpJVI3tDbY)
       * [Hot Spring](https://www.youtube.com/watch?v=QsQfJ-n90nI)
 1. [Cyberduck](https://cyberduck.io/) - a cloud storage browser
+1. [Taskade](https://taskade.com/) - a realtime organization and collaboration tool for getting things done
